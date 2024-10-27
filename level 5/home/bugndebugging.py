@@ -2,7 +2,7 @@
 # Debugging is correct a bug in a code
 
 
-# Text data is a piece of data that's written using quotation marks. This kind of data is also called a string. We can just display text data or store them in variables.
+# Text data is a piece of data that's written using quotation marks. This kind of data is also called a string. We can just display a string using 'print()' or store them in variables.
 #for example:
 #print('My name is Girogi')
 #name - 'Giorgi'
