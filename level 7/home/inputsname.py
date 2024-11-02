@@ -1,0 +1,8 @@
+name = input('Enter your name: ')
+last_name = input('Enter your last name: ')
+age = input('Enter your age: ')
+country = input('Enter your country: ')
+city = input('Enter your city: ')
+fav_car = input('Enter your favorite car: ')
+fav_color = input('Enter your favorite color: ')
+print('Hello, my name is ' + name + ' ' + 'My last name is ' + last_name + ' ' + 'I am ' + age + ' years old' + ' ' + 'I am from ' + country + ' ' + 'and I am from ' + city + 'my favorite car is ' + fav_car + ' ' + 'lastly, my favorite color is ' + fav_color)

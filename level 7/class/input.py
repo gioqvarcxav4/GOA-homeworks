@@ -1,0 +1,6 @@
+name = input('Enter your name: ')
+last_name = input('Enter your last name: ')
+age = input('Enter your age: ')
+country = input('Enter your country: ')
+city = input('Enter your city: ')
+print('Hello my name is ' + name + ' ' + 'I am ' + int(age) + ' years old' + ' ' + 'I am from ' + country + ' ' + 'and I live in ' + city)
