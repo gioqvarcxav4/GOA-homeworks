@@ -1,0 +1,6 @@
+age = input('Enter your age: ')
+print(type(age))
+age = int(input('Enter your age; '))
+print(type(age))
+age = float(input('Enter you age: '))
+print(type(age))

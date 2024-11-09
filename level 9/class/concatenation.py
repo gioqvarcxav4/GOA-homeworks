@@ -1,0 +1,5 @@
+var1 = input('Enter var1: ')
+var2 = input('Enter var2: ')
+var3 = input('Enter var3: ') 
+var4 = input('Enter var4: ')
+print(var1 + ' ' + var2 + ' ' + var3 + ' ' + var4)
