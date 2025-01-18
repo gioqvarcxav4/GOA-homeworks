@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #2d2d72;
+    color: #ffffff;
+    text-align: center;
+}
+
+nav {
+    background: #f2a365;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main {
+    background: #ffffff;
+}
+
+main section {
+    background: #e2e8f0;
+}
+
+footer {
+    text-align: center;
+    background: #2d2d72;
+    color: #ffffff;
+}
+
+footer ul li a {
+    color: #f2a365;
+}
