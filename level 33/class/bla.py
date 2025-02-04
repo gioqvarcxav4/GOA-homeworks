@@ -1,0 +1,5 @@
+synt = input('Write a sentence: ')
+replc = input('Enter the word you would like to replace: ')
+new = input('Enter the word you want to replace it with: ')
+modified = synt.replace(replc, new)
+print(modified)
