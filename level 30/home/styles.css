@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrow-list {
+    list-style: none;
+    padding: 0;
+}
+
+.arrow-list li {
+    padding-left: 20px;
+    background-size: 16px;
+    margin-bottom: 8px;
+}
+
+.arrow-list a {
+    text-decoration: none;
+    color: #0073aa;
+    font-size: 16px;
+}
+
+.arrow-list a:hover {
+    text-decoration: underline;
+}

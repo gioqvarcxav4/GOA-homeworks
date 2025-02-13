@@ -1,0 +1,18 @@
+#parent {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: none;
+    padding-top: 200px;
+    padding-left: 300px;
+}
+
+#child{
+    height: 150px;
+    width: 150px;
+    border: none;
+    background-color: blue;
+    border-radius: 80px;
+    margin-top: 150px;
+    margin-left: 50px;
+}

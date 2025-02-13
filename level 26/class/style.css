@@ -1,0 +1,21 @@
+h1{
+    text-transform: uppercase; 
+}
+h2{
+    text-decoration: line-through;
+}
+h3{
+ text-shadow: 10px 20px 30px red;   
+}
+h4{
+    text-align: right;
+}
+h5{
+    line-height: 30px;
+}
+h6{
+    letter-spacing: 60px;
+}
+p{
+    word-spacing: 50px;
+}
