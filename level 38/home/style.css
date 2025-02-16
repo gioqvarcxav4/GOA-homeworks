@@ -1,0 +1,116 @@
+body {
+    font-family: "Red Hat Display", serif;
+    background-image: url(pattern-background-desktop.svg);
+    background-color: #e0e8ff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow:rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-image: url(illustration-hero.svg);
+    background-repeat: no-repeat;
+    height: 690px;
+    width: 430px;
+    padding: 10px;
+}
+h1 {
+    font-weight: 800;
+}
+#text {
+    position: relative;
+    top: 230px;
+
+}
+.p-1 {
+    color: #a4a7b7;
+}
+.plan-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fe;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 320px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 40px;
+    position: absolute;
+    top: 460px;
+
+}
+.plan-info {
+    display: flex;
+    align-items: center;
+}
+.plan-icon {
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+}
+.plan-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -5px;
+}
+.plan-price {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+    position: relative;
+    top: -13px;
+}
+.change-link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3729e2;
+    font-weight: bold;
+}
+.change-link:hover {
+    text-decoration: none;
+    color: #6960ce;
+}
+button {
+    margin: 3px;
+    position: relative;
+    top: 350px;
+}
+.plan-btn {
+    margin-top: 26px;
+    border: none;
+    width: 330px;
+    height: 56px;
+    background-color: #382ae1;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.btn2 {
+    margin-top: 30px;
+    border: none;
+    background-color: white;
+    color: #a3adc9;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+.plan-btn:hover {
+    background-color: #766cf1;
+    transition: 0.5s ease;
+}
+.btn2:hover {
+    color: black;
+    transition: o.5s ease;
+}

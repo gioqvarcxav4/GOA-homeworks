@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #50c2a7, #30a5c2);
+}
+table {
+    margin: 20px auto;
+    margin-top: 250px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    color: white;
+    height: 100px;
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-child(1) th {
+    background: rgba(255, 255, 255, 0.2);
+}
+th {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

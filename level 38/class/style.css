@@ -1,0 +1,21 @@
+div {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: solid black 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    border-radius: 30px;
+    display: inline-block;
+}
+.div-1 {
+    background-color: aquamarine;
+}
+.div-2 {
+    background-color: azure;
+}
+.div-3 {
+    background-color: beige;
+}
