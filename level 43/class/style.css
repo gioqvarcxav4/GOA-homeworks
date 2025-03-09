@@ -1,0 +1,79 @@
+:root {
+    --color1: red;
+    --color2: blue;
+    --color3: green;
+    --bg-color1: yellow;
+    --bg-color2: pink;
+    --bg-color3: orange;
+    --font-size1: 20px;
+    --font-size2: 25px;
+    --font-size3: 30px;
+    --letter-spacing1: 2px;
+    --letter-spacing2: 4px;
+    --letter-spacing3: 6px;
+    --padding1: 10px;
+    --padding2: 15px;
+    --padding3: 20px;
+    --margin1: 5px;
+    --margin2: 10px;
+    --margin3: 15px;
+    --position1: absolute;
+    --position2: relative;
+    --position3: fixed;
+    --transform1: rotate(10deg);
+    --transform2: scale(1.2);
+    --transform3: translateX(50px);
+    --transition1: all 0.3s ease;
+    --transition2: all 0.5s ease-in-out;
+    --transition3: all 0.7s linear;
+}
+
+.el1 {
+    color: var(--color1);
+    background-color: var(--bg-color1);
+    font-size: var(--font-size1);
+    letter-spacing: var(--letter-spacing1);
+    display: block;
+    padding: var(--padding1);
+    margin: var(--margin1);
+    position: var(--position1);
+    transition: var(--transition1);
+}
+
+.el2 {
+    color: var(--color2);
+    background-color: var(--bg-color2);
+    font-size: var(--font-size2);
+    letter-spacing: var(--letter-spacing2);
+    display: inline;
+    padding: var(--padding2);
+    margin: var(--margin2);
+    position: var(--position2);
+    transform: var(--transform2);
+    transition: var(--transition2);
+}
+
+.el3 {
+    color: var(--color3);
+    background-color: var(--bg-color3);
+    font-size: var(--font-size3);
+    letter-spacing: var(--letter-spacing3);
+    display: inline-block;
+    padding: var(--padding3);
+    margin: var(--margin3);
+    position: var(--position3);
+    transform: var(--transform3);
+    transition: var(--transition3);
+}
+
+.el1:hover {
+    transform: scale(1.1);
+}
+
+.el2:hover {
+    transform: rotate(20deg);
+}
+
+.el3:hover {
+    transform: translateX(100px);
+}
