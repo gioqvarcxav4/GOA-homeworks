@@ -1,0 +1,63 @@
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: #19a1ad;
+}
+.box {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    background-image: url(bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    position: absolute;
+    left: 520px;
+    top: 160px;
+}
+.vic {
+    border-radius: 50%;
+    border: solid white 5px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 128px;
+    left: 170px;
+}
+.cty {
+    position: absolute;
+    top: 138px;
+    color: #c0c0c3;
+}
+.folla {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 330px;
+    font-size: 13px;
+}
+.amt {
+    position: relative;
+    bottom: 12px;
+    color: #c0c0c3;
+}
+.amt2 {
+    position: relative;
+    bottom: 12px;
+    color: #c0c0c3;
+}
+.amt3 {
+    position: relative;
+    bottom: 12px;
+    color: #c0c0c3;
+}
+hr {
+    position: relative;
+    top: 330px;
+    border: solid #c0c0c3 1px;
+}
