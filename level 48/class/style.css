@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: grid;
+    color: white;
+    font-family: cursive;
+    background-color: #2596be;
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "nav footer footer"
+    ;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 100px 5fr 100px;
+}
+header, nav, main, aside, footer {
+    border: 1px solid skyblue;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}

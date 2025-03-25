@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    width: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sedan, .suv, .lux {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sedan {
+    background-color: #E38826;
+}
+.suv {
+    background-color: #006970;
+}
+.lux {
+    background-color: #004241;
+}
+.car-icon {
+    width: 50px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+#learn-more {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#learn-more:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.lrn1 {
+    color: #E38826;
+}
+.lrn2 {
+    color: #006970;
+}
+.lrn3 {
+    color: #004241;
+}
