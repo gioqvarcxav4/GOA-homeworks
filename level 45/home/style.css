@@ -3,3 +3,119 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "League Spartan", sans-serif;
+    height: 100vh;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.text {
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.title {
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.subtxt {
+    color: hsl(303, 10%, 53%);
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 80px;
+    left: 900px;
+}
+
+.like1, .like2, .like3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 400px;
+    padding: 25px;
+}
+
+.p1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+}
+.like1 {
+    position: relative;
+    right: 26px;
+}
+.like3 {
+    position: relative;
+    left: 26px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 35px;
+    left: px;
+    font-size: large;
+}
+.anotha1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 15px;
+    bottom: 104px;
+}
+.colton {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.container2 {
+    width: 400px;
+    height: 300px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+}
+.yap1 {
+    font-size: 20px;
+    color: white;
+    line-height: 24px;
+    text-align: left;
+    position: absolute;
+    top: 588px;
+    text-align: left;
+    left: 60px;
+}
+.name1 {
+    color: white;
+    font-weight: bold;
+}
+.status1 {
+    color: hsl(333, 80%, 67%);
+}
