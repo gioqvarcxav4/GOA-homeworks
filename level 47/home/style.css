@@ -24,6 +24,7 @@ body {
     ;
     margin: 30px;
     width: 80%;
+    overflow: hidden;
 
 }
 .box1 {
@@ -132,11 +133,18 @@ body {
     background-color: white;
     grid-area: box5;
     overflow: hidden;
+    padding: 20px;
 }
 .box5 img {
     width: 300px;
     height: auto;
     margin-left: 62px;
+}
+.box5 h1 {
+    letter-spacing: -2px;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 35px;
 }
 .box6 {
     background-color: hsl(39, 100%, 71%);

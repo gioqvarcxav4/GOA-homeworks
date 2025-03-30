@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, aside, nav {
+    background-color: #6cbf4d;
+}
+.sect1,.sect3, .sect4 {
+    background-color: #ec3436;
+}
+.sect2, .sect5 {
+    background-color: #fab12e;
+}
+body {
+    height: 100vh;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+    "aside header header sect1"
+    "aside sect2 sect3 nav"
+    "aside sect4 sect5 nav"
+    ;
+    height: 100vh;
+    grid-template-columns: 150px 603px 603px 150px;
+    gap: 10px;
+    grid-template-rows: 150px 327px 327px ;
+}
+header {
+    grid-area: header;
+}
+aside {
+    grid-area: aside;
+}
+.sect1 {
+    grid-area: sect1;
+}
+.sect2 {
+    grid-area: sect2;
+}
+.sect3 {
+    grid-area: sect3;
+}
+.sect4 {
+    grid-area: sect4;
+}
+.sect5 {
+    grid-area: sect5
+}
+nav {
+    grid-area: nav;
+}
+header, nav, aside, .sect1, .sect2, .sect3, .sect4, .sect5 {
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+}
