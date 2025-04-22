@@ -7,6 +7,7 @@ body {
     font-family: "Kumbh Sans", sans-serif;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 .header {
     display: flex;
@@ -95,5 +96,6 @@ a {
 }
 .text {
     width: 100%;
-    margin: 0 50rem;
+    margin: -30rem 50rem;
 }
+
